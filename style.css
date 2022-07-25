@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: rgb(252, 252, 218);
+}
+
+.chessboard {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 1px;
+    height: 648px;
+    width: 648px;
+    border: solid black 3px;
+    margin: 50px auto;
+}
+
+.chessboard > div {
+    font-size: 50px;
+    text-align: center;
+    cursor: default;
+}
+
+.chess {
+    width: 80px;
+    height: 80px;
+}
+
+.black {
+    border: none;
+    background-color: #CCC;
+    width: 80px;
+    height: 80px;
+}
+
+.white {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+}
